@@ -25,7 +25,7 @@
         android:text="Mój tekst"
         app:layout_constraintBottom_toTopOf="@+id/editText"
         app:layout_constraintEnd_toStartOf="@+id/textView2"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,RtlCompat" />
 
     <EditText
         android:id="@+id/editText"
